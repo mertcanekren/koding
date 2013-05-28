@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Hello World From php by Koding</title>
+<title>Koding</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="http://koding.com/hello/css/style.css">
 <!--[if IE]>
@@ -33,10 +33,9 @@ a {color:rgba(255,255,255,0.5)}
     </ul>  
     </nav>
 	<footer>
-	<h4>This is an example page running PHP on your Koding Server.</h4>
+	<h4></h4>
 	<p>
-		You can create your own simple PHP "Hello World" with this:
-         <a href="http://www.mertcanekren.com">mertcanekren.com</a>
+		<a href="http://www.mertcanekren.com">mertcanekren.com</a>
 	</p>
 	</footer>
 </div>
