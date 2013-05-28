@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Koding test</title>
+<title>Koding test mertcan</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="http://koding.com/hello/css/style.css">
 <!--[if IE]>
@@ -20,8 +20,10 @@ a {color:rgba(255,255,255,0.5)}
 	</div>
     <nav>
     <ul style="list-style-type:none;">
+
      <?php
-        $path = "/Users/mertcanekren/Sites/mertcanekren.koding.com/website/tutorials/";
+     	
+     	$path = "/Users/mertcanekren/Sites/mertcanekren.koding.com/website/tutorials/";
         $pt = opendir($path);         
         while(gettype($name=readdir($pt))!=boolean){
             if($name != "." && $name != ".."){
