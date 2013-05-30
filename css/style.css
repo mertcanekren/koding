@@ -29,6 +29,20 @@ header h1{
     line-height:1em;
     border-bottom: 1px solid #d3a200;
 }
+header h2{
+    font-weight:900;
+    font-size:2em;
+    color:#000000;
+    margin: 5px 15px;
+}
+article{
+    padding:5px 15px;
+}
+article pre{
+    border: 1px solid #d1d1d1;
+    background: #dbdbdb;
+    color: #555555;
+}
 ul.list{
    width: 900px;
 }
