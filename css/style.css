@@ -29,6 +29,9 @@ header h1{
     line-height:1em;
     border-bottom: 1px solid #d3a200;
 }
+header h1 a:hover{
+	text-decoration: underline;
+}
 header h2{
     font-weight:900;
     font-size:2em;
@@ -77,7 +80,10 @@ footer span{
     margin: 5px;
     color: #44628e;
 }
-footer span a{
+a{
     color: #646464;
     text-decoration: none;
+}
+a:hover{
+	color: #000;
 }
