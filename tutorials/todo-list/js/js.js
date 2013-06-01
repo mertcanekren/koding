@@ -19,7 +19,7 @@ $(function(){
 			$('#listname').css('border','1px solid red');
 			$('#listname').attr('placeholder',"List Name Required!");
 		}
-	});	
+	});	 
 
 	// new todo
 	$("body").delegate("#newtodoinput", "keypress", function(){
