@@ -50,7 +50,7 @@ ul.list{
    width: 900px;
 }
 ul.list li{
-    margin: 0;
+    margin: 3px 0 0 0;
 }
 ul.list li a{
     font-size:1.3em;
