@@ -13,7 +13,8 @@ if($sql){
     	}
   	}
 }
-fclose($sql);
+
+@fclose($sql);
 
 $array_number = array();
 $top = -1;
