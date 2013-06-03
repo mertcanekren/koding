@@ -2,8 +2,9 @@
 <a href="?f=2.sql">2.sql</a><br/><hr/>
 <?php
 Header('Content-Type: Text/html; Charset=utf8');
-
-$sql = @fopen ($_GET["f"],'r');
+if($_GET["f"]){
+	$sql = @fopen ($_GET["f"],'r');
+}
 
 if($sql){
 	while(!feof ($sql)){
