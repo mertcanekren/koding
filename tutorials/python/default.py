@@ -1,1 +1,3 @@
-print ("My first Python code!")
+#!/usr/bin/python
+
+print "Hello, Python!";
