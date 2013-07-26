@@ -124,7 +124,6 @@ body{
 	background: linear-gradient(to bottom,  rgba(160,138,128,1) 0%,rgba(160,116,97,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a08a80', endColorstr='#a07461',GradientType=0 ); /* IE6-8 */
 	height: 23px;
-	text-decoration:center;
 	padding-left:15px;
 	padding-top:5px;
 	font-size: 15px;
