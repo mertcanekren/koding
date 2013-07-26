@@ -1,7 +1,32 @@
-<a href="?f=1.sql">1.sql</a>
-<a href="?f=2.sql">2.sql</a><br/><hr/>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MRTN</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-41397337-1', 'koding.com');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+
+<a href="../../"><div class="slogo"></div></a>
+
+
+    <div style="margin: 20px;">
+
+        <a href="?f=1.sql" style="font-size:14px;font-weight: bold;">1.sql</a>
+        <a href="?f=2.sql" style="font-size: 14px; font-weight: bold;">2.sql</a><br/><hr/>
 <?php
-Header('Content-Type: Text/html; Charset=utf8');
+
 if(!@$_GET["f"]){
 	$sql = @fopen ("1.sql",'r');
 }else{
@@ -74,14 +99,9 @@ foreach ($as as $sss){
 <div style="clear:both"></div>
 
 <br/><hr/>
+        <span style="float: left"><a href="../../">Geri</a></span>
 <span style="float:right"><a href="http://www.mertcanekren.com" target="_blank">Blog</a> & <a href="http://www.notunburada.com" target="_blank">Notunburada.com</a></span>
-    <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-41397337-1', 'koding.com');
-	  ga('send', 'pageview');
+    </div>
 
-	</script>
+</body>

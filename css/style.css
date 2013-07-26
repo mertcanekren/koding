@@ -18,6 +18,14 @@ body,button,input,select,textarea {
     background:transparent url('../img/logo.png') no-repeat left top;
     margin:0 auto;
 }
+
+.slogo{
+    display:block;
+    width:187px;
+    height:69px;
+    background:transparent url('../img/logo.png') no-repeat left top;
+    margin-left: 20px;;
+}
 header{
 
 }
@@ -75,10 +83,12 @@ ul.list li a:hover{
 footer{
     border-top: 1px solid #d3a200;
 }
+
 footer span{
     float: right;
     margin: 5px;
     color: #44628e;
+
 }
 a{
     color: #646464;
