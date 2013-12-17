@@ -35,7 +35,6 @@ $(function(){
 	    $(".todolist ul li#"+$(this).attr('data-id')+" div.todolistcheck").addClass('todolistchecked');
 	});
 });
-
 // new list creator
 function newlist(listname) {
     $.ajax({
